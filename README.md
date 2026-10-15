@@ -7,7 +7,7 @@ Thiệp chia tay chị **Giáp Thu Trang**, dựa trên [bye-bye-tamnc](https://
 | Vị trí | Tên file |
 |---|---|
 | 4 khung lớn ở 4 góc màn hình (màn ≥1024px) | `khung-1.jpg` … `khung-4.jpg` |
-| Ảnh dán trong thư | `chi-trang.jpg` |
+| Khung giữa mép trên + ảnh dán trong thư | `chi-trang.jpg` |
 
 Khung nào chưa có ảnh sẽ hiện 📷 kèm tên file cần thả. Dùng đuôi khác (`.png`, `.jpeg`) thì sửa `src` trong `index.html`.
 
