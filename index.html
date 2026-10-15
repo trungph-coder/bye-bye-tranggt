@@ -8,6 +8,7 @@
 <!--
   ============== ẢNH (thả file vào thư mục images/) ==============
     - Khung lớn ở 4 góc màn hình: images/khung-1.jpg … images/khung-4.jpg
+    - Hai khung hai bên phong bì:  images/khung-5.jpg, images/khung-6.jpg
     - Khung giữa mép trên + ảnh dán trong thư: images/chi-trang.jpg
   Chưa có ảnh thì khung hiện 📷 + tên file cần thả vào.
   Muốn dùng tên/định dạng khác (.png, .jpeg…): sửa src="..." trong các thẻ <img> bên dưới.
@@ -141,6 +142,10 @@
   .outer .p3{ top:1%;  left:52%;  --r:-4deg; --s:.88; animation-delay:2.4s; }
   .outer .p4{ top:5%;  right:1%;  --r:8deg;  --s:1;   animation-delay:.6s;  }
   .outer .pc{ top:1%;  left:calc(50% - 115px); --r:-3deg; --s:.86; animation-delay:1.5s; }
+  /* hai bên phong bì */
+  .outer .pl{ top:calc(50% - 150px); left:calc(50% - 450px);  --r:-6deg; --s:.84; animation-delay:2.7s; }
+  .outer .pr{ top:calc(50% - 130px); right:calc(50% - 450px); --r:7deg;  --s:.84; animation-delay:.3s;  }
+  .outer .pl img, .outer .pr img { object-position:center 30%; }
   /* hàng dưới (4) */
   .outer .p5{ bottom:4%; left:1%;   --r:6deg;  --s:.98; animation-delay:1.8s; }
   .outer .p6{ bottom:1%; left:25%;  --r:-6deg; --s:.9;  animation-delay:3s;   }
@@ -153,6 +158,7 @@
     .outer{display:block;}
     .outer .polaroid{width:190px;} .outer .ph{width:172px;height:172px;}
     .outer .pc{ left:calc(50% - 95px); }
+    .outer .pl{ left:calc(50% - 385px); --s:.78; } .outer .pr{ right:calc(50% - 385px); --s:.78; }
   }
 
   /* ---- Sân khấu + phong bì ---- */
@@ -450,6 +456,8 @@
     <figure class="polaroid p1"><div class="ph"><img src="images/khung-1.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>khung-1.jpg</small></span></div><figcaption>Team đi chơi</figcaption></figure>
     <figure class="polaroid p4"><div class="ph"><img src="images/khung-2.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>khung-2.jpg</small></span></div><figcaption>Đêm lửa trại</figcaption></figure>
     <figure class="polaroid pc"><div class="ph"><img src="images/chi-trang.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>chi-trang.jpg</small></span></div><figcaption>Chị Trang 🌸</figcaption></figure>
+    <figure class="polaroid pl"><div class="ph"><img src="images/khung-5.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>khung-5.jpg</small></span></div><figcaption>Xinh xỉu ✨</figcaption></figure>
+    <figure class="polaroid pr"><div class="ph"><img src="images/khung-6.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>khung-6.jpg</small></span></div><figcaption>Peace ✌️</figcaption></figure>
     <figure class="polaroid p5"><div class="ph"><img src="images/khung-3.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>khung-3.jpg</small></span></div><figcaption>Year End Party 2025</figcaption></figure>
     <figure class="polaroid p8"><div class="ph"><img src="images/khung-4.jpg" alt="" onerror="this.style.display='none'"><span class="ph-ic">📷<small>khung-4.jpg</small></span></div><figcaption>Những buổi đi ăn</figcaption></figure>
   </div>
